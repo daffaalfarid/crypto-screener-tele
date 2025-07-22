@@ -1,0 +1,15 @@
+{
+  "coins": ["SOLUSDT", "PEPEUSDT", "ARBUSDT", "CFXUSDT", "OPUSDT", "INJUSDT", "AVAXUSDT", "LINKUSDT", "MATICUSDT", "APTUSDT"],
+  "timeframes": ["15m", "1h"],
+  "indicators": {
+    "rsi": {
+      "overbought": 70,
+      "oversold": 30
+    },
+    "ma_cross": {
+      "fast": 9,
+      "slow": 21
+    },
+    "volume_spike_multiplier": 2.5
+  }
+}
